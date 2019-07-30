@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Going to the login page",
+        "description": "",
+        "id": "login-to-the-website;going-to-the-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5348629400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to www.amazon.com",
+            "match": {
+              "location": "MyStepdefs.iGoToWwwAmazonCom()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 446233800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hover to the sign in button",
+            "match": {
+              "location": "MyStepdefs.iHoverToTheSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71233000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I wait till th dropdwon is visible",
+            "match": {
+              "location": "MyStepdefs.iWaitTillThDropdwonIsVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733530300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on sign in button",
+            "match": {
+              "location": "MyStepdefs.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000555700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be transferred to login page",
+            "match": {
+              "location": "MyStepdefs.iShouldBeTransferredToLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the website",
+    "description": "",
+    "id": "login-to-the-website",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

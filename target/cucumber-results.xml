@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.600182">
+<testcase classname="Login to the website" name="Going to the login page" time="9.600182">
+<system-out><![CDATA[Given I go to www.amazon.com................................................passed
+When I hover to the sign in button..........................................passed
+And I wait till th dropdwon is visible......................................passed
+And I click on sign in button...............................................passed
+Then I should be transferred to login page..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

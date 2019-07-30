@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^I hover to the sign in button$",
+    "steps": [
+      {
+        "name": "I hover to the sign in button",
+        "aggregatedDurations": {
+          "average": 0.4462338,
+          "median": 0.4462338
+        },
+        "durations": [
+          {
+            "duration": 0.4462338,
+            "location": "login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on sign in button$",
+    "steps": [
+      {
+        "name": "I click on sign in button",
+        "aggregatedDurations": {
+          "average": 0.7335303,
+          "median": 0.7335303
+        },
+        "durations": [
+          {
+            "duration": 0.7335303,
+            "location": "login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I wait till th dropdwon is visible$",
+    "steps": [
+      {
+        "name": "I wait till th dropdwon is visible",
+        "aggregatedDurations": {
+          "average": 0.071233,
+          "median": 0.071233
+        },
+        "durations": [
+          {
+            "duration": 0.071233,
+            "location": "login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to www\\.amazon\\.com$",
+    "steps": [
+      {
+        "name": "I go to www.amazon.com",
+        "aggregatedDurations": {
+          "average": 5.3486294,
+          "median": 5.3486294
+        },
+        "durations": [
+          {
+            "duration": 5.3486294,
+            "location": "login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be transferred to login page$",
+    "steps": [
+      {
+        "name": "I should be transferred to login page",
+        "aggregatedDurations": {
+          "average": 3.0005557,
+          "median": 3.0005557
+        },
+        "durations": [
+          {
+            "duration": 3.0005557,
+            "location": "login.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

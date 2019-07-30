@@ -1,0 +1,8 @@
+Feature: Login to the website
+
+  Scenario: Going to the login page            [90m# login.feature:3[0m
+    [32mGiven [0m[32mI go to www.amazon.com[0m               [90m# MyStepdefs.iGoToWwwAmazonCom()[0m
+    [32mWhen [0m[32mI hover to the sign in button[0m         [90m# MyStepdefs.iHoverToTheSignInButton()[0m
+    [32mAnd [0m[32mI wait till th dropdwon is visible[0m     [90m# MyStepdefs.iWaitTillThDropdwonIsVisible()[0m
+    [32mAnd [0m[32mI click on sign in button[0m              [90m# MyStepdefs.iClickOnSignInButton()[0m
+    [32mThen [0m[32mI should be transferred to login page[0m [90m# MyStepdefs.iShouldBeTransferredToLoginPage()[0m
